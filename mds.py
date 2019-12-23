@@ -79,4 +79,4 @@ def landmark_MDS(D, lands, dim):
 
 	_, evecs = sp.linalg.eigh(X.dot(X.T))
 
-return (evecs[:,::-1].T.dot(X)).T
+	return (evecs[:,::-1].T.dot(X)).T
